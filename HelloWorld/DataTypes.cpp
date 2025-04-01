@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void dataTypes() {
+int main() {
     string name ;
     char initial ;
     short age = 0;
@@ -57,6 +57,7 @@ void dataTypes() {
     cout << "Tax Amount: $" << taxAmount << "\n";
     cout << "Net Income: $" << netIncome << "\n";
 
+    return 0;
 
 
 }
