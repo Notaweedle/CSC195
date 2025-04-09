@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Containers {
+class containers {
 public:
    void arrays() {
        array<string, 7> dayOfWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
@@ -31,7 +31,7 @@ public:
        }
    }
 
-   void list() {
+   void lists() {
 
        cout << "List\n";
 	   list<std::string> fruits = { "Apple", "Banana", "Cherry" }; // List are similar to array ,but they are able to be changed and added to freely.
@@ -42,11 +42,20 @@ public:
        }
    }
 
-   void map() {
+   void maps() {
 	   map<std::string, int > stock = { {"Trees", 10},{"Piles of Fire", 3},{"Wood of Water",0} }; // Map is a key value pair, where the key is the name and the value is the amount of that item.
-       stock["Wood of Water"] = 10;
+       for (auto item : stock) {
+           cout << item.first << " " << item.second << endl;
+       }
+   		stock["Wood of Water"] = 10;
 	   for (auto item : stock) {
 		   cout << item.first << " " << item.second << endl;
 	   }
    }
 };
+int main() {
+
+    containers container;
+    container.maps();
+    return 0;
+}
