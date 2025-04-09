@@ -2,8 +2,10 @@
 #include "Employee.h" // Include the Employee class header
 using namespace std;
 
-int main() {
-    
+
+class DataTypes {
+public:
+    void  userDataTypes() {
         int numEmployees;
         std::cout << "Number of employees (max 5): ";
         std::cin >> numEmployees;
@@ -21,6 +23,5 @@ int main() {
         for (int i = 0; i < numEmployees; i++) {
             employees[i].Write();
         }
-
-        return 0;
     }
+};
