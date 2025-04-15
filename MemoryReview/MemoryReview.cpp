@@ -6,16 +6,17 @@ struct Person
 	char name[32];
 	int id;
 };
-int square(int i)
-{
-	i = i * i;
-	return i;
-};
-int Double(int *i)
-{
-	*i = *i * 2;
-	return *i;
-}
+
+//int square(int i)
+//{
+//	i = i * i;
+//	return i;
+//};
+//int Double(int *i)
+//{
+//	*i = *i * 2;
+//	return *i;
+//}
 
 int main()
 {
