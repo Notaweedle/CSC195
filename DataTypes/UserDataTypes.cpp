@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Employee.h" // Include the Employee class header
+#include "..//Employee/Employee.h" 
 using namespace std;
 
 
@@ -10,9 +10,9 @@ public:
         std::cout << "Number of employees (max 5): ";
         std::cin >> numEmployees;
 
-        if (numEmployees > 5) numEmployees = 5; 
+        if (numEmployees > 5) numEmployees = 5;
 
-        Employee employees[5]; 
+        Employee employees[5];
 
         for (int i = 0; i < numEmployees; i++) {
             std::cout << "\nEnter details for Employee " << (i + 1) << ":\n";

@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\HelloWorld\UserDataTypes.cpp">
+    <ClCompile Include="DataTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\HelloWorld\DataTypes.cpp">
+    <ClCompile Include="UserDataTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

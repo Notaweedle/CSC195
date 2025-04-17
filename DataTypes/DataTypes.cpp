@@ -3,14 +3,14 @@
 using namespace std;
 
 int main() {
-    string name ;
-    char initial ;
+    string name;
+    char initial;
     short age = 0;
     bool isAdult = false;
     unsigned int zipcode = 0;
     float wage = 0.0f;
     short daysWorked;
-    float hoursWorkedPerDay [7];
+    float hoursWorkedPerDay[7];
 
     const float TAX = 0.1f;
 
@@ -22,7 +22,7 @@ int main() {
 
     cout << "Enter age: ";
     cin >> age;
-    isAdult = (age >= 18 &&  age <= 99);  // Determine adulthood status
+    isAdult = (age >= 18 && age <= 99);  // Determine adulthood status
 
     cout << "Enter zipcode: ";
     cin >> zipcode;
