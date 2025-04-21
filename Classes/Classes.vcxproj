@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1c32e8aa-c080-4caf-b608-22286e4f153d}</ProjectGuid>
+    <ProjectGuid>{c67749e4-9d9a-47a8-9fcd-2f8ba7f063d8}</ProjectGuid>
     <RootNamespace>Classes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Classes.cpp" />
+    <ClInclude Include="BaseClass.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="FullTime.h" />
+    <ClInclude Include="PartTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="FullTime.cpp" />
+    <ClCompile Include="PartTime.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
-#include "../HelloWorld/Employee.h"
+#include "Employee.h"
+
 
 const float Employee::TAX = 0.1f; // Define TAX (10%)
 
