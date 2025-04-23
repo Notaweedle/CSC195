@@ -12,10 +12,7 @@ namespace math
 	}
 }
 
-namespace pest
-{
-	
-}
+
 
 void print(const names_t& names)
 {
